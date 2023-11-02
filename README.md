@@ -4,9 +4,9 @@
 
 ### Usage
 
-To use `logwire`, simply clone the repository and run the script.
+```
+npm install -g logwire
+logwire watch <filename> <port>
+```
 
-```
-npm install
-node index.js watch <filename> <port>
-```
+A web dashboard will be made accessible over localhost with real-time log data that can be shared with other developers, stakeholders.
