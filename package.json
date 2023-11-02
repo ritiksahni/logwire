@@ -1,0 +1,35 @@
+{
+  "name": "logwire",
+  "version": "1.0.0",
+  "description": "logwire is a tool for making log files accessible via a web interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logging",
+    "web",
+    "server",
+    "devtools",
+    "debugging",
+    "data-sharing"
+  ],
+  "author": "Ritik Sahni <ritiksahni",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ritiksahni/logwire.git"
+  },
+  "homepage": "https://github.com/ritiksahni/logwire.git",
+  "bugs": {
+    "url": "https://github.com/ritiksahni/logwire/issues",
+    "email": "ritiksahni0203@gmail.com"
+  },
+  "bin": {
+    "logwire": "bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "express": "^4.18.2"
+  }
+}
